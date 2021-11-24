@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+   overflow-x: hidden;
+}
+
+
+.row{
+   width: 100%;
+   justify-content: space-between;
+   box-sizing: border-box;
+   display: flex;
+   flex:0 1 auto;
+   flex-direction: row;
+  
+   flex-wrap: wrap;
+  
+
+}
+.P1{
+   width: 50%;
+ margin: auto;
+ margin-bottom: 50PX;
+   color: #B2854E;
+   margin-left: auto;
+   margin-right: auto;
+}
+p{
+    color: #000000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+   
+    top: 0px;
+    
+}
+header {
+    background-image: url(willian-justen-de-vasconcellos-4hMET7vYTAQ-unsplash.jpg);
+    width: 100%;
+     height: 600px;
+     background-size: cover;
+}
+h2{
+ color: #000000;   
+}
+
+
+.pic {
+   text-align: center;
+ width: 300px;
+}
+
+span{
+    color: rgb(86, 173, 231);
+}
+
+h1{
+  text-align: center;
+  justify-content: center;
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: 0px;
+    color: #ffff;
+}
+#para1{
+   text-align: center;
+ color: #ffff;
+ font-size: 20px;
+
+}
+
+
+.button {
+    
+   width: 130PX;
+   height:40PX ;
+   border-radius: 8PX;
+   margin-top: 30PX;
+   background-color: #708a79;
+   border-color: #385241;
+   color: #ffff;
+   text-align: center;
+  
+  
+}
+.button:hover{
+   background-color: transparent;
+}
+
+.button-container{
+   text-align: center;
+}
+h2{
+   text-align: center;
+   justify-content: center;
+ 
+  margin-top: 100px;
+}
+.part2{
+   text-align: center;
+
+}
+
+@media only screen and (min-width:48em)  {
+   
+   
+   .ultimate-container {
+
+      margin: auto;
+   }
+}
+
+@media only screen and (min-width:75em){
+   
+.verona-container {
+
+   text-align: start;
+}
+
+.rome-container {
+
+   text-align: start;
+}
+
+.como-container {
+
+   text-align: start;
+}
+}
